@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2018, 2:02:08 PM
+    Author     : timpinkerton
+*/
+
+body {
+    background-color: #9e9a75;    
+    background-image: url("../images/swLogo2-indexBg2.png"); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-position-y: 50px;
+}
+
+nav {
+    background-color: #41533b; 
+}
+
+.active,
+.active:hover,
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+p {
+    font-size: 1.3em; 
+}
+
+.scrolling-container {
+    height: 500px; 
+    overflow: scroll; 
+}
+
+/***********************************************************
+LOGIN PAGE
+***********************************************************/
+
+#login-form {
+    max-width: 767px; 
+}
+
+
+/***********************************************************
+HOME PAGE
+***********************************************************/
+
+div.featured-item-div {
+    width: 250px; 
+    height: 300px; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#mceu_15 {
+    margin: 0 auto; 
+}
